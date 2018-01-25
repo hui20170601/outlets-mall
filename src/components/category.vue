@@ -2,19 +2,19 @@
 	<div class="outlets-category">
 		<div class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item mui-active" href="#tabbar">
-				<span class="mui-icon mui-icon-home"></span>
+				<i class="icon-home f-24"></i>
 				<span class="mui-tab-label">首页</span>
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-chat">
-				<span class="mui-icon mui-icon-extra mui-icon-extra-class"></span>
+				<i class="icon-th-large"></i>
 				<span class="mui-tab-label">分类</span>
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-contact">
-				<span class="mui-icon mui-icon-extra mui-icon-extra-gift"></span>
+				<i class="icon-gift"></i>
 				<span class="mui-tab-label">会员权益</span>
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-map">
-				<span class="mui-icon mui-icon-gear"></span>
+				<i class="icon-user"></i>
 				<span class="mui-tab-label">个人中心</span>
 			</a>
 		</div>
@@ -38,20 +38,39 @@
           <li class="bd">oppo</li>
           <li class="bd">vivo</li>
           <li class="bd">配件</li>
+          <li class="bd">vivo</li>
+          <li class="bd">配件</li>
+          <li class="bd">oppo</li>
+          <li class="bd">vivo</li>
+          <li class="bd">配件</li>
         </ul>
         <div class="list-content fl">
           <div class="list-content-items">
             <div class="list-content-info">
-              <img src="" alt="">
-              <p>iphone7</p>
+              <img src="../assets/img/p1.jpg" alt="">
+              <p class="f-12 block">iphone7</p>
             </div>
             <div class="list-content-info">
-              <img src="" alt="">
-              <p>iphone7</p>
+              <img src="../assets/img/p2.jpg" alt="">
+              <p class="f-12 block">iphone7</p>
             </div>
             <div class="list-content-info">
-              <img src="" alt="">
-              <p>iphone7</p>
+              <img src="../assets/img/p3.jpg" alt="">
+              <p class="f-12 block">iphone7</p>
+            </div>
+          </div>
+          <div class="list-content-items">
+            <div class="list-content-info">
+              <img src="../assets/img/p1.jpg" alt="">
+              <p class="f-12 block">iphone7</p>
+            </div>
+            <div class="list-content-info">
+              <img src="../assets/img/p2.jpg" alt="">
+              <p class="f-12 block">iphone7</p>
+            </div>
+            <div class="list-content-info">
+              <img src="../assets/img/p3.jpg" alt="">
+              <p class="f-12 block">iphone7</p>
             </div>
           </div>
         </div>
@@ -73,51 +92,54 @@ export default {
 </script>
 
 <style scoped>
+  .outlets-category {
+    /*height: 100%;*/
+  }
 	.outlets-category .search {
     padding: 0.1rem 0.2rem 0 0.1rem;
   }
   .outlets-category .search .search-box {
     width: 75%;
-    margin-bottom: 10px;
+    margin-bottom: 0.1rem;
   }
   .outlets-category .search button {
     width: 21%;
-    padding: 10px 0.1rem;
+    padding: 0.1rem 0.1rem;
     border: 1px solid rgb(26, 188, 156);
     background-color: rgb(26, 188, 156);
   }
   .category-list .list-tab {
     width: 25%;
     text-align: center;
-    height: 4.6rem;
+    height: 5.5rem;
+    box-sizing: border-box;
     overflow-y: scroll;
   }
   .category-list .list-tab li{
-    height: 50px;
-    line-height: 50px;
+    height: 0.5rem;
+    line-height: 0.5rem;
   }
   .category-list .list-tab .list-tab-active {
-    color: red;
-    border-left: 3px solid rgb(238, 123, 81);
+    color: rgba(26, 188, 156, 1);;
   }
   .category-list .list-content {
     width: 75%;
     border-left: 1px solid rgba(228, 228, 228, 1);   
-    height: 4.6rem;
+    height: 5.5rem;
     overflow-y: scroll; 
   }
   .list-content .list-content-items {
     display: flex;
     display: -webkit-flex;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 0.1rem;
   }
   .list-content .list-content-items .list-content-info {
-    background-color: burlywood;
     flex: 1;
     text-align: center;
   }
   .list-content-items .list-content-info img {
-    margin: 0 auto 10px;
+    margin: 0 auto;
+    width: 0.7rem;
+    height: 0.9rem;
   }
 </style>

@@ -65,7 +65,25 @@ ul {
     list-style: none;
 }
 
+ ::-webkit-input-placeholder {
+    color: #bbb;
+    font-size: 14px;
+}
 
+ ::-moz-placeholder {
+    color: #bbb;
+    font-size: 14px;
+}
+
+ :-ms-input-placeholder {
+    color: #bbb;
+    font-size: 14px;
+}
+
+input:-moz-placeholder {
+    color: #bbb;
+    font-size: 14px;
+}
 /* iphone5 */
 
 @media screen and (max-width: 359px) {
@@ -73,8 +91,6 @@ ul {
         font-size: 85px;
     }
 }
-
-
 /* iphone6 */
 
 @media screen and (min-width: 360px) and (max-width: 374px) {
@@ -82,8 +98,6 @@ ul {
         font-size: 90px;
     }
 }
-
-
 /* iphone6 */
 
 @media screen and (min-width: 375px) and (max-width: 413px) {
@@ -91,8 +105,6 @@ ul {
         font-size: 100px;
     }
 }
-
-
 /* iphone6 p标准模式 */
 
 @media screen and (min-width: 414px) {
@@ -102,7 +114,7 @@ ul {
 }
 
 body {
-    color: #929292;
+    color: #686565;
     font-size: 12px;
 }
 
@@ -120,12 +132,40 @@ body {
     font-size: 12px;
 }
 
+.f-13 {
+    font-size: 13px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
 .fl {
     float: left;
 }
 
 .fr {
     float: right;
+}
+
+.red {
+    color: rgb(248, 82, 17)
+}
+
+.block {
+    color: #686565;
 }
 
 .clearfix:after {
@@ -138,10 +178,92 @@ body {
 }
 
 .bd {
-    border-bottom: 1px solid rgba(228, 228, 228, 1);
+    border-bottom: 1px solid #ccc;
 }
 
 .bt {
-    border-top: 1px solid rgba(228, 228, 228, 1);
+    border-top: 1px solid #ccc;
 }
 
+.bgc {
+    background-color: rgba(26, 188, 156, 1);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.bgw {
+    background-color: #fff;
+}
+
+.mui-checkbox input[type='checkbox']:checked:before {
+    color: rgba(26, 188, 156, 1);
+}
+
+.mui-bar-tab {
+    box-shadow: 0px -1px 17px #999999;
+}
+
+.personal-info {
+    padding: 0.2rem 0.1rem;
+    margin: 0 0 12px;
+    background-color: #fff;
+}
+
+.personal-info .avatar {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: beige;
+    margin-right: 0.1rem;
+}
+
+.personal-info .base-info {
+    margin-top: -1px;
+}
+
+.base-info .member-integral {
+    margin-top: 5px;
+}
+
+.info label {
+    width: 25%;
+    padding: 18px 28px 8px 15px;
+}
+
+.info label~input {
+    width: 75%;
+    padding: 14px 15px 0 0;
+}
+
+.goods-info .content{
+    position: relative;
+    padding: 10px 0 6px;
+}
+.order-num {
+    position: relative;
+}
+.goods-info .content img {
+    width: 0.9rem;
+    height: 1rem;
+    margin-right: 10px;
+}
+.order-num::before,.order-num::after,.content::after {
+    content: '';
+    height: 1px;
+    background-color: rgba(228, 228, 228, 1);
+    position: absolute;
+    left: -0.2rem;
+    right: -0.2rem;
+    bottom: 0;
+}
+.order-num::before {
+    top: 0;
+}
+.mui-bar-tab i {
+    font-size: 24px;
+    display: block;
+    margin-top: 4px;
+}

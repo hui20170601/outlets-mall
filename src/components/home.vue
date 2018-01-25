@@ -1,20 +1,20 @@
 <template>
-	<div class="outlets-home">
+	<div class="outlets-mall">
 		<div class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item mui-active" href="#tabbar">
-				<span class="mui-icon mui-icon-home"></span>
+				<i class="icon-home f-24"></i>
 				<span class="mui-tab-label">首页</span>
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-chat">
-				<span class="mui-icon mui-icon-extra mui-icon-extra-class"></span>
+				<i class="icon-th-large"></i>
 				<span class="mui-tab-label">分类</span>
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-contact">
-				<span class="mui-icon mui-icon-extra mui-icon-extra-gift"></span>
+				<i class="icon-gift"></i>
 				<span class="mui-tab-label">会员权益</span>
 			</a>
 			<a class="mui-tab-item" href="#tabbar-with-map">
-				<span class="mui-icon mui-icon-gear"></span>
+				<i class="icon-user"></i>
 				<span class="mui-tab-label">个人中心</span>
 			</a>
 		</div>
@@ -64,22 +64,22 @@
 					<div class="mui-indicator"></div>
 				</div>
 			</div>
-			<ul class="extentions" >
+			<ul class="extentions bgw" >
     		<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
+					<img src="../assets/img/u246.svg" alt="">
+					<span class="mui-tab-label items-txt">邀请好友</span>
 				</li>
 				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
+					<img src="../assets/img/u146.svg" alt="">
+					<span class="mui-tab-label items-txt">服务专区</span>
 				</li>
 				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
+					<img src="../assets/img/u140.svg" alt="">
+					<span class="mui-tab-label items-txt">红包</span>
 				</li>
 				<li class="extentions-items">
-					<span class="mui-icon mui-icon-home items-icon"></span>
-					<span class="mui-tab-label items-txt">首页</span>
+					<img src="../assets/img/u152.svg" alt="">
+					<span class="mui-tab-label items-txt">签到</span>
 				</li>
 				<li class="extentions-items">
 					<span class="mui-icon mui-icon-home items-icon"></span>
@@ -90,33 +90,30 @@
 					<span class="mui-tab-label items-txt">首页</span>
 				</li>
   		</ul>
-			<div class="line"></div>
-			<div class="announcement">
+			<div class="announcement bgw">
 				<div class="announcement-info">
-					<span class="mui-icon mui-icon-extra mui-icon-extra-gift"></span>
+					<i class="icon-volume-up f-18"></i>
 					<ul class="message f-12">
 						<li>奥特莱斯成为中国最大的手机零食商</li>
 					</ul>
 				</div>
 				<div class="details f-12">详情</div>
 			</div>
-			<div class="line"></div>
-			<div class="goods-pic clearfix">
+			<div class="goods-pic clearfix bgw">
 				<div>
-					<img src="" alt="">
+					<img src="../assets/img/p4.jpg" alt="">
 				</div>
 				<div>
-					<img src="" alt="">
+					<img src="../assets/img/p2.jpg" alt="">
 				</div>
 				<div>
-					<img src="" alt="">
+					<img src="../assets/img/p3.jpg" alt="">
 				</div>
 			</div>
-			<div class="line-bold"></div>
-			<div class="hot-brand">
+			<div class="hot-brand bgw">
 				<div class="title clearfix">
 					<span class="fl">热门品牌</span>
-					<span class="mui-icon mui-icon-forward fr"></span>
+					<i class="icon-angle-right fr f-24"></i>
 					<span class="fr">更多品牌</span>			
 				</div>
 				<ul class="hot-brand-tab">
@@ -127,86 +124,94 @@
 					<li>oppo</li>
 					<li>三星</li>
 				</ul>
-				<div class="hot-brand-content">
-					<div class="hot-brand-cell clearfix">
-						<img src="" alt="" class="fl">
-						<div class="fl">
-							<p>iphoneX</p>
-							<p>¥8888</p>
-						</div>		
+				<div class="hot-brand-content clearfix">
+					<div class="tab-content fl">
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
 					</div>
-					<div class="hot-brand-cell clearfix">
-						<img src="" alt="" class="fl">
-						<div class="fl">
-							<p>iphoneX</p>
-							<p>¥8888</p>
-						</div>		
-					</div>
-					<div class="hot-brand-cell clearfix">
-						<img src="" alt="" class="fl">
-						<div class="fl">
-							<p>iphoneX</p>
-							<p>¥8888</p>
-						</div>		
-					</div>
-					<div class="hot-brand-cell clearfix">
-						<img src="" alt="" class="fl">
-						<div class="fl">
-							<p>iphoneX</p>
-							<p>¥8888</p>
-						</div>		
+					<div class="tab-content fl">
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
+						<div class="hot-brand-cell clearfix">
+							<img src="../assets/img/p3.jpg" alt="" class="fl">
+							<div class="fl txt">
+								<p class="f-14">iphoneX</p>
+								<p class="f-13 red">¥8888</p>
+							</div>		
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="line-bold"></div>
-			<div class="recommend hot-brand">
+			<div class="recommend hot-brand bgw">
 				<div class="title clearfix">
 					<span class="fl">热门推荐</span>
-					<span class="mui-icon mui-icon-forward fr"></span>
+					<i class="icon-angle-right fr f-24"></i>
 					<span class="fr">更多推荐</span>			
 				</div>
-				<ul class="mui-table-view recommend-list">
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
+				 <div class="goods-info">
+        	<div class="content">
+						<img class="mui-media-object mui-pull-left" src="../assets/img/p3.jpg">
+						<div class="mui-media-body f-16 block fl">
 							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
+							<p class='recommend-list-txt f-12 block'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
+							<p class='mui-ellipsis f-13 red'>¥4079</p>
+							<p class='mui-ellipsis f-12 block'>(门店自提）广州白云区店</p>
+						</div>
+        	</div>
+        	<div class="content  clearfix">
+						<img class="mui-media-object mui-pull-left" src="../assets/img/p3.jpg">
+						<div class="mui-media-body f-16 block">
 							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
-							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-					<li class="mui-table-view-cell mui-media">
-						<a href="javascript:;">
-							<img class="mui-media-object mui-pull-left" src="">
-							<div class="mui-media-body">
-							苹果 iphone7
-								<p class='recommend-list-txt'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
-								<p class='mui-ellipsis'>¥4079</p>
-							</div>
-						</a>
-					</li>
-				</ul>
+							<p class='recommend-list-txt f-12 block'>防水防尘，混合红外线滤镜，TrueTone 闪光灯</p>
+							<p class='mui-ellipsis f-13 red'>¥4079</p>
+						</div>
+        	</div>
+      	</div>
 			</div>
 		</div>
 	</div>
@@ -235,20 +240,25 @@ export default {
 </script>
 
 <style scoped>
-	.outlets-home .slider {
+	.outlets-mall .slider {
   	height: 2rem;
 	}
-	.outlets-home .extentions {
+	.outlets-mall .extentions {
 		overflow-x: scroll;
 		white-space: nowrap;
 		padding: 0.2rem 0 0.1rem;
+		margin-bottom: 8px;
+		text-align: center;
 	}
-	.outlets-home .extentions li:first-child {
+	.outlets-mall .extentions li:first-child {
 		margin-left: 0.4rem
 	}
-	.outlets-home .extentions .extentions-items{
+	.outlets-mall .extentions .extentions-items{
 		display: inline-block;
 		margin-left: 0.45rem;
+	}
+	.extentions .extentions-items img {
+		width: 0.3rem;
 	}
 	.extentions .extentions-items span {
 		display: block;
@@ -260,7 +270,7 @@ export default {
 		font-size: 36px;
 		margin-bottom: 5px;
 	}
-	.outlets-home .announcement {
+	.outlets-mall .announcement {
 		display: flex;
 		display: -webkit-flex;
 		align-items: center;
@@ -270,18 +280,22 @@ export default {
 		height: 0.4rem;
 		line-height: 0.4rem;
 		padding: 0 0.2rem;
+		margin-bottom: 8px;		
 	}
-	.outlets-home .announcement .announcement-info {
+	.outlets-mall .announcement .announcement-info {
 		display: flex;
 		display: -webkit-flex;
 		align-items: center;
 		-webkit-align-items: center;
 	}
-	.outlets-home .announcement .mui-icon {
+	.announcement-info i {
+		margin-right: 0.1rem;
+	}
+	.outlets-mall .announcement .mui-icon {
 		font-size: 16px;
 		margin-right: 10px;
 	}
-	.outlets-home .announcement .details{
+	.outlets-mall .announcement .details{
 		width: 0.4rem;
 		height: 0.2rem;
 		line-height: 0.2rem;		
@@ -290,65 +304,96 @@ export default {
 		text-align: center;
 		border-radius: 3px;
 	}
-	.outlets-home .goods-pic {
+	.outlets-mall .goods-pic {
 		padding: 0.1rem;
+		margin-bottom: 8px;
 	}
-	.outlets-home .goods-pic div {
+	.outlets-mall .goods-pic div {
 		width: 1.72rem;
 	}
-	.outlets-home .goods-pic div:first-child {
+	.outlets-mall .goods-pic div img {
+		width: 100%;
+		height: 100%;
+	}
+	.outlets-mall .goods-pic div:first-child {
 		height: 2rem;
 		margin-right: 0.1rem;
-		background-color: red;
 		float: left;
 	}
-	.outlets-home .goods-pic div:nth-child(2) {
+	.outlets-mall .goods-pic div:nth-child(2) {
 		height: 0.95rem;
-		background-color: rosybrown;
 		float: left;
 		margin-bottom: 0.1rem;		
 	}
-	.outlets-home .goods-pic div:last-child {
+	.outlets-mall .goods-pic div:last-child {
 		height: 0.95rem;
-		background-color: green;
 		float: left;		
 	}
-	.outlets-home .hot-brand {
-		padding: 10px 10px 0;
+	.outlets-mall .hot-brand {
+		padding: 0.1rem;
+		overflow: hidden;	
+		margin-bottom: 8px;	
 	}
-	.outlets-home .title {
-		margin: 10px 5px 0;
-		line-height: 24px;
+	.outlets-mall .title {
+		line-height: 36px;
+		border-bottom: 1px solid #c8c7cc;
 	}
-	.outlets-home .hot-brand .hot-brand-tab {
+	.outlets-mall .title i {
+		line-height: 36px;
+		margin-left: 0.1rem;
+	}
+	.outlets-mall .hot-brand .hot-brand-tab {
+		display: flex;
+		display: -webkit-flex;
 		height: 44px;
 		line-height: 44px;
 	}
 	.hot-brand .hot-brand-tab li {
 		display: inline-block;
-		margin-right: 0.2rem;
+		margin-right: 0.15rem;
+		padding: 0 0.1rem;
 		padding: 0 5px;
 	}
 	.hot-brand .hot-brand-tab .tab-active {
-		color: red;
+		color: rgba(26, 188, 156, 1);
     height: 42px;
-    border-bottom: 3px solid rgb(238, 123, 81);
+    border-bottom: 3px solid rgba(26, 188, 156, 1);
 	}
 	.hot-brand .hot-brand-content {
 		margin-top:12px;
+		background-color: #efeff4;
+		width: 1000%;
+	}
+	.hot-brand-content .tab-content {
+		display: flex;
+		display: -webkit-flex;
+		width: 3.4rem;
+		flex-wrap: wrap;
+	}
+	.tab-content div:first-child, .tab-content div:nth-child(2) {
+		margin-bottom: 5px
 	}
 	.hot-brand .hot-brand-content .hot-brand-cell {
-		display: inline-block;
-		width: 1.5rem;
-		padding: 20px 0 20px 5px;
-		background-color: rgba(228, 228, 228, 1);
-		margin: 0 7px 4px 0;
+		width: 1.64rem;
+		background-color: #fff;
+		margin-right: 5px;
 	}
-	.outlets-home .recommend .title {
+	.hot-brand-content .hot-brand-cell img {
+		width: 55%;
+		height: 80px;
+	}
+	.hot-brand-content .hot-brand-cell .txt {
+		padding: 0.15rem 0 0 0.1rem;
+	
+	}
+	.outlets-mall .recommend .title {
 		padding-bottom: 10px;
 	}
 	.recommend .recommend-list .recommend-list-txt{
 		width: 240px;
 		white-space: normal;
+	}
+	.goods-info .content {
+		height: 1.21rem;
 	}
 </style>

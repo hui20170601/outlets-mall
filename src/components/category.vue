@@ -19,22 +19,25 @@
 			</a>
 		</div>
     <div class="mui-content">
-      <div class="search bd">
+      <div class="search bd bgw">
         <div class="mui-input-row">
 					<input type="text" placeholder="输入商品关键词或用户名" class="search-box f-12">
           <button type="button" class="mui-btn mui-btn-primary mui-icon mui-icon-search">搜索</button>          
 				</div>
       </div>
-      <div class="category-list clearfix">
+      <div class="category-list clearfix bgw">
         <ul class="list-tab fl">
-          <li>新品</li>
-          <li class="list-tab-active">苹果</li>
-          <li>小米</li>
-          <li>华为</li>
-          <li>三星</li>
-          <li>oppo</li>
-          <li>vivo</li>
-          <li>配件</li>
+          <li class="bd">新品</li>
+          <li class="list-tab-active bd">苹果</li>
+          <li class="bd">小米</li>
+          <li class="bd">华为</li>
+          <li class="bd">三星</li>
+          <li class="bd">oppo</li>
+          <li class="bd">vivo</li>
+          <li class="bd">配件</li>
+          <li class="bd">oppo</li>
+          <li class="bd">vivo</li>
+          <li class="bd">配件</li>
         </ul>
         <div class="list-content fl">
           <div class="list-content-items">
@@ -84,12 +87,14 @@ export default {
     background-color: rgb(26, 188, 156);
   }
   .category-list .list-tab {
-    padding-top: 10px;
     width: 25%;
-    text-align: center
+    text-align: center;
+    height: 4.6rem;
+    overflow-y: scroll;
   }
   .category-list .list-tab li{
-    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
   }
   .category-list .list-tab .list-tab-active {
     color: red;
@@ -97,7 +102,9 @@ export default {
   }
   .category-list .list-content {
     width: 75%;
-    border-left: 1px solid rgba(228, 228, 228, 1);    
+    border-left: 1px solid rgba(228, 228, 228, 1);   
+    height: 4.6rem;
+    overflow-y: scroll; 
   }
   .list-content .list-content-items {
     display: flex;
